@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
+using RestWithASPNET10.Exceptions;
 using RestWithASPNET10.Model;
 using RestWithASPNET10.Services;
 
@@ -21,37 +22,58 @@ namespace RestWithASPNET10.Controllers
         public IActionResult Get()
         {
             return Ok(_personService.FindAll());
+
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(long id)
         {
-            var person = _personService.FindById(id);
-            if (person == null) return NotFound();
-            return Ok(person);
+            try
+            {
+                return Ok(_personService.FindById(id));
+            }
+            catch (PersonNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         [HttpPost]
         public IActionResult Post([FromBody] Person person)
         {
             var createdPerson = _personService.Create(person);
-            if (createdPerson == null) return NotFound();
+            if (createdPerson == null) return BadRequest();
             return Ok(createdPerson);
         }
 
         [HttpPut]
         public IActionResult Put([FromBody] Person person)
         {
-            var createdPerson = _personService.Update(person);
-            if (createdPerson == null) return NotFound();
-            return Ok(createdPerson);
+            try
+            {
+                var createdPerson = _personService.Update(person);
+                return Ok(createdPerson);
+
+            }
+            catch (PersonNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(long id)
         {
-            _personService.Delete(id);
-            return NoContent();
+            try
+            {
+                _personService.Delete(id);
+                return NoContent();
+            }
+            catch (PersonNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+
+            }
         }
     }
 }
