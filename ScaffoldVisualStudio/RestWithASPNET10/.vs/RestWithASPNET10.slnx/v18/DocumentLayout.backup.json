@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\",
+  "WorkspaceRootPath": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\users\\pedrohsilva\\java-study\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\pechak\\estudos\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|solutionrelative:restwithaspnet10\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\users\\pedrohsilva\\java-study\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\services\\implementation\\personserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\pechak\\estudos\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\services\\implementation\\personserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|solutionrelative:restwithaspnet10\\services\\implementation\\personserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\users\\pedrohsilva\\java-study\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|c:\\pechak\\estudos\\c#\\rest-with-asp-net-10\\scaffoldvisualstudio\\restwithaspnet10\\restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNET10\\RestWithASPNET10.csproj|solutionrelative:restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Controllers\\PersonController.cs",
+              "DocumentMoniker": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "RestWithASPNET10\\Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Controllers\\PersonController.cs",
               "RelativeToolTip": "RestWithASPNET10\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T18:10:13.278Z",
               "EditorCaption": ""
@@ -41,22 +41,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PersonServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
+              "DocumentMoniker": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
               "RelativeDocumentMoniker": "RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
-              "ToolTip": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
+              "ToolTip": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
               "RelativeToolTip": "RestWithASPNET10\\Services\\Implementation\\PersonServiceImpl.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T16:49:53.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T16:49:53.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Program.cs",
+              "DocumentMoniker": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Program.cs",
               "RelativeDocumentMoniker": "RestWithASPNET10\\Program.cs",
-              "ToolTip": "C:\\Users\\pedrohsilva\\java-study\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Program.cs",
+              "ToolTip": "C:\\Pechak\\Estudos\\C#\\rest-with-asp-net-10\\ScaffoldVisualStudio\\RestWithASPNET10\\RestWithASPNET10\\Program.cs",
               "RelativeToolTip": "RestWithASPNET10\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
