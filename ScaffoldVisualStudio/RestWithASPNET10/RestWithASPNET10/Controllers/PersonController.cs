@@ -12,15 +12,18 @@ namespace RestWithASPNET10.Controllers
     {
 
         private IPersonService _personService;
+        private readonly ILogger<PersonController> _logger;
 
-        public PersonController(IPersonService personService)
+        public PersonController(IPersonService personService, ILogger<PersonController> logger)
         {
             _personService = personService;
+            _logger = logger;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
+            _logger.LogInformation("Fetching all the people");
             return Ok(_personService.FindAll());
 
         }
@@ -30,10 +33,12 @@ namespace RestWithASPNET10.Controllers
         {
             try
             {
+                _logger.LogInformation("Fetching person with ID {id}", id);
                 return Ok(_personService.FindById(id));
             }
             catch (PersonNotFoundException ex)
             {
+                _logger.LogWarning("Person with id {id} not found", id);
                 return NotFound(ex.Message);
             }
         }
@@ -41,6 +46,7 @@ namespace RestWithASPNET10.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Person person)
         {
+            _logger.LogInformation("Create new person, {person}", person);
             var createdPerson = _personService.Create(person);
             if (createdPerson == null) return BadRequest();
             return Ok(createdPerson);
@@ -51,12 +57,15 @@ namespace RestWithASPNET10.Controllers
         {
             try
             {
+                _logger.LogInformation("Updating person with ID {person.Id}", person.Id);
                 var createdPerson = _personService.Update(person);
+                _logger.LogInformation("Person successfully updated: {person.Id}", person.Id);
                 return Ok(createdPerson);
-
+                
             }
             catch (PersonNotFoundException ex)
             {
+                _logger.LogWarning("Person with id {id} not found", person.Id);
                 return NotFound(ex.Message);
             }
         }
@@ -66,11 +75,14 @@ namespace RestWithASPNET10.Controllers
         {
             try
             {
+                _logger.LogInformation("Deleting person with id {id}", id);
                 _personService.Delete(id);
+                _logger.LogDebug("Person with id {id} deleted successfully", id);
                 return NoContent();
             }
             catch (PersonNotFoundException ex)
             {
+                _logger.LogWarning("Person with id {id} not found", id);
                 return NotFound(ex.Message);
 
             }
